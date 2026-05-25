@@ -84,6 +84,11 @@ See `docs/reproduction.md` for the recommended workflow:
 5. Run reconstruction evaluation.
 6. Generate tables and sensitivity plots.
 
+In the main experiment workflow, the train/test split is performed inside
+`scripts/LRR.py` after the ocular prosthesis point cloud is loaded. The split is
+therefore generated during the experiment run rather than being stored as a
+separate pre-split dataset.
+
 ## Citation
 
 If you use this repository, please cite both the paper and the Zenodo artifact:

@@ -20,10 +20,6 @@ Use this checklist before making the GitHub repository public.
 - Confirm that the complete dataset is available at `https://doi.org/10.5281/zenodo.20375590`.
 - Confirm that the complete `model_record/` directory is available at the same DOI.
 - Confirm that the archive extracts into the paths described in `docs/downloads.md`.
-- Confirm that mapping records are included:
-  - `data_raw/match.txt`
-  - `data_raw/rename_record.txt`
-  - `model_record/rename_record_model_record.txt`
 
 ## GitHub Repository
 

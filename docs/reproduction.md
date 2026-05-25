@@ -35,14 +35,6 @@ recon/
 result/
 ```
 
-The dataset and model-record mapping files are:
-
-```text
-data_raw/match.txt
-data_raw/rename_record.txt
-model_record/rename_record_model_record.txt
-```
-
 ## 4. Training
 
 Main training scripts:

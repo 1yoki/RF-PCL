@@ -43,15 +43,8 @@ After extraction, verify:
 ```text
 data_raw/eye_01.txt
 data_raw/eye_47.txt
-model_record/rename_record_model_record.txt
-```
-
-The dataset numbering records are:
-
-```text
-data_raw/match.txt
-data_raw/rename_record.txt
-model_record/rename_record_model_record.txt
+model_record/eye_01/
+model_record/eye_47/
 ```
 
 ## Notes

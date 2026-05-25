@@ -13,7 +13,7 @@ Download and extract the dataset into the repository root before running the scr
 
 ## Overview
 
-The dataset contains eye point-cloud samples used in the RF-PCL experiments. The public-facing raw dataset numbering is:
+The dataset contains eye point-cloud samples used in the RF-PCL experiments. The raw point-cloud files are provided as:
 
 ```text
 data_raw/eye_01.txt ... data_raw/eye_47.txt
@@ -26,25 +26,13 @@ Each file stores one point cloud in plain text format. The scripts assume at lea
 After extracting the Zenodo artifact, the repository should contain:
 
 ```text
-data_raw/      Raw point-cloud files and ID mapping records
+data_raw/      Raw point-cloud files
 data_2048/     Sampled/processed point-cloud files used by selected experiments
 recon/         Reconstruction examples and split outputs
 result/        Experiment metrics, averaged reconstructions, and logs
 ```
 
 The trained model records are described separately in `docs/model_record_description.md`.
-
-## Numbering Records
-
-The dataset has gone through recorded renumbering steps. The relevant mapping files are included in the archived artifact:
-
-```text
-data_raw/match.txt
-data_raw/rename_record.txt
-model_record/rename_record_model_record.txt
-```
-
-Use the current `eye_xx` IDs in `data_raw/` and `model_record/` for experiments and reporting.
 
 ## Privacy and Release Notes
 
