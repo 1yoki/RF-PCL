@@ -3,9 +3,8 @@ title: "RF-PCL"
 message: "If you use this code or dataset, please cite the associated paper and this repository."
 type: software
 authors:
-  - family-names: "TODO"
-    given-names: "TODO"
-repository-code: "https://github.com/TODO/RF-PCL"
+  "Peng Lewei, Xiang Yu, Chen Zihao from University of Electronic Science and Technology of China. Yang Qichen, Guo Bo from West China Hospital of Sichuan University."
+repository-code: "https://github.com/1yoki/RF-PCL"
 version: "1.0.0"
 date-released: "2026-05-25"
 license: "NOASSERTION"
