@@ -1,0 +1,17 @@
+name: rf-pcl
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - sympy
+  - matplotlib
+  - tensorboard
+  - pytorch
+  - pytorch-cuda
+  - pip

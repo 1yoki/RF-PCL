@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+.env
+
+.idea/
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.bak
+*.swp
+
+# Keep experiment artifacts versioned intentionally.
+# Full datasets and trained model records are hosted on Zenodo:
+# https://doi.org/10.5281/zenodo.20375590
+
+# Large Zenodo artifacts. Keep these local after download.
+data_raw/
+model_record/

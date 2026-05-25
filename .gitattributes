@@ -1,0 +1,9 @@
+data_raw/*.txt filter=lfs diff=lfs merge=lfs -text
+data_raw/*.zip filter=lfs diff=lfs merge=lfs -text
+data_2048/*.txt filter=lfs diff=lfs merge=lfs -text
+model_record/**/*.pth filter=lfs diff=lfs merge=lfs -text
+model_record/**/*.pt filter=lfs diff=lfs merge=lfs -text
+model_record/**/*.npy filter=lfs diff=lfs merge=lfs -text
+recon/**/*.txt filter=lfs diff=lfs merge=lfs -text
+result/**/*.csv filter=lfs diff=lfs merge=lfs -text
+result/**/events.out.tfevents.* filter=lfs diff=lfs merge=lfs -text

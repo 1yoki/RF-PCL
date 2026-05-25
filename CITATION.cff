@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "RF-PCL"
+message: "If you use this code or dataset, please cite the associated paper and this repository."
+type: software
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+repository-code: "https://github.com/TODO/RF-PCL"
+version: "1.0.0"
+date-released: "2026-05-25"
+license: "NOASSERTION"
+abstract: "Code and dataset artifact for RF-PCL experiments."
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20375590"
+    description: "Zenodo archive for the RF-PCL dataset and model records"

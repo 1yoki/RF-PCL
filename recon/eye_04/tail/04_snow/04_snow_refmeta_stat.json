@@ -1,0 +1,29 @@
+{
+  "input": "recon\\04\\04_snow.txt",
+  "meta": "recon\\04\\04_meta.json",
+  "num_points": 2048,
+  "num_cols": 3,
+  "bin_counts": [
+    103,
+    127,
+    176,
+    197,
+    228,
+    231,
+    257,
+    268,
+    262,
+    199
+  ],
+  "split_dim_id": 1,
+  "split_n": 10,
+  "ref_min": 38.702203,
+  "ref_max": 60.9931,
+  "ref_step": 2.2290897000000003,
+  "SAVE_PARTS": true,
+  "MAKE_TRAIN_TEST": true,
+  "DATASET": "",
+  "OBJECT": "tail",
+  "VALI_TRAIN_RATIO": 7,
+  "MID_START": 3
+}
