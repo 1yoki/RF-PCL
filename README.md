@@ -9,8 +9,6 @@ DOI: 10.5281/zenodo.20375590
 URL: https://doi.org/10.5281/zenodo.20375590
 ```
 
-> TODO: Replace this paragraph with the final paper title, author list, venue, and a short abstract once the paper metadata is fixed.
-
 ## Repository Layout
 
 ```text
