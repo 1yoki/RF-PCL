@@ -1,4 +1,4 @@
-# RF-PCL
+# RF-PCL: Riemannian Feature-Based Point Cloud Learning for Patient-Specific Ocular Prosthesis Surface Modeling
 
 This repository contains the source code and documentation for the RF-PCL paper artifact.
 
@@ -45,14 +45,6 @@ pip install -r requirements.txt
 The experiments were developed with PyTorch and CUDA. Make sure the installed PyTorch build matches your GPU/CUDA environment.
 
 ## Download Data and Model Records
-
-Download the dataset and `model_record` from Zenodo:
-
-```text
-https://doi.org/10.5281/zenodo.20375590
-```
-
-Extract the downloaded files into the repository root so that paths such as `data_raw/eye_01.txt` and `model_record/eye_01/` are available.
 
 See `docs/downloads.md` for details.
 
@@ -101,7 +93,5 @@ Update `CITATION.cff` after the paper metadata is finalized.
 
 Code and data licenses are separated:
 
-- `LICENSE`: code license placeholder
-- `DATASET_LICENSE`: dataset license placeholder
-
-Please finalize both files before making the repository public.
+- `LICENSE`: Our code is released under MIT License (see LICENSE file for details).
+- `DATASET_LICENSE`: Our dataset is released under Creative Commons Attribution-NonCommercial 4.0 International License (see DATASET_LICENSE file for details).
